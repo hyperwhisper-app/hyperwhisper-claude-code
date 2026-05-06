@@ -6,7 +6,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}"
+            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}",
+            "timeout": 60
           }
         ]
       }
@@ -16,7 +17,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}"
+            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}",
+            "timeout": 60
           }
         ]
       }
@@ -27,7 +29,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}"
+            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}",
+            "timeout": 60
           }
         ]
       },
@@ -36,7 +39,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}"
+            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}",
+            "timeout": 60
           }
         ]
       }
@@ -46,7 +50,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}"
+            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}",
+            "timeout": 60
           }
         ]
       }
@@ -56,11 +61,11 @@
         "hooks": [
           {
             "type": "command",
-            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}"
+            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}",
+            "timeout": 60
           }
         ]
       }
     ]
   }
 }
-
