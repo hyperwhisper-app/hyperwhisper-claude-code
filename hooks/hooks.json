@@ -1,0 +1,66 @@
+{
+  "description": "HyperWhisper voice integration - notify when Claude Code completes tasks or needs input",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}"
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}"
+          }
+        ]
+      },
+      {
+        "matcher": "ExitPlanMode",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}"
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${HYPERWHISPER_CLAUDE_HOOK:-/Applications/HyperWhisper.app/Contents/Resources/claude-hook}"
+          }
+        ]
+      }
+    ]
+  }
+}
+

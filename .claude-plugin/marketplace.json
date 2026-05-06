@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "hyperwhisper",
+  "description": "HyperWhisper voice integration plugins for AI coding agents.",
+  "owner": {
+    "name": "HyperWhisper",
+    "email": "support@hyperwhisper.com"
+  },
+  "plugins": [
+    {
+      "name": "hyperwhisper",
+      "description": "Voice notifications when Claude Code completes tasks. Speak your next command immediately after Claude finishes.",
+      "version": "0.1.0",
+      "author": {
+        "name": "HyperWhisper",
+        "email": "support@hyperwhisper.com"
+      },
+      "source": "./",
+      "category": "productivity",
+      "homepage": "https://hyperwhisper.com"
+    }
+  ]
+}
+

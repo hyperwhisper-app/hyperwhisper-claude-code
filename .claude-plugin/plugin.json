@@ -1,0 +1,10 @@
+{
+  "name": "hyperwhisper",
+  "version": "0.1.0",
+  "description": "HyperWhisper voice integration for Claude Code. Get voice notifications when tasks complete and respond by voice.",
+  "author": {
+    "name": "HyperWhisper",
+    "email": "support@hyperwhisper.com"
+  }
+}
+
